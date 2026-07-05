@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="plus()">
+        +
+    </button>
+    <button onclick="minus()">
+        -
+    </button>
+    <button onclick="divide()">
+        /
+    </button>
+    <button onclick="multiply()">
+        *
+    </button>
+    <script>
+        function plus() {
+            let a = prompt("Введи первое число", "0");
+            let b = prompt("Введи второе число", "0");
+            let result = Number(a) + Number(b);
+            alert(`${result}`);
+        }
+
+        function minus() {
+            let a = prompt("Введи первое число", "0");
+            let b = prompt("Введи второе число", "0");
+            let result = Number(a) - Number(b);
+            alert(`${result}`);
+        }
+
+        function divide() {
+            let a = prompt("Введи первое число", "0");
+            let b = prompt("Введи второе число", "0");
+            let result = Number(a) / Number(b);
+            alert(`${result}`);
+        }
+
+        function multiply() {
+            let a = prompt("Введи первое число", "0");
+            let b = prompt("Введи второе число", "0");
+            let result = Number(a) * Number(b);
+            alert(`${result}`)
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.border {
+  display: flex;
+  justify-content: center; }
+  .border .buttonBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 250px;
+    background-color: #424242;
+    border: 2px black solid;
+    border-radius: 5%;
+    min-width: 150px; }
+    .border .buttonBox .red {
+      border-radius: 50%;
+      min-height: 70px;
+      min-width: 70px;
+      background-color: red;
+      border: none; }
+    .border .buttonBox .yellow {
+      border-radius: 50%;
+      min-height: 70px;
+      min-width: 70px;
+      background-color: yellow;
+      border: none; }
+    .border .buttonBox .green {
+      border-radius: 50%;
+      min-height: 70px;
+      min-width: 70px;
+      background-color: lime;
+      border: none; }
+
+.redBackground {
+  transition: 1s;
+  background-color: red; }
+
+.yellowBackground {
+  transition: 1s;
+  background-color: yellow; }
+
+.greenBackground {
+  transition: 1s;
+  background-color: lime; }
+
+/*# sourceMappingURL=style.css.map */

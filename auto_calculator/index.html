@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="main">
+        <h1 class="title">Узнайте стоимость Вашего автомобиля всего за 1 минуту.</h1>
+        <div class="form">
+            <select onchange="getModels()" id="mark">
+                <option value="">Марка</option>
+                <option value="bmw">bmw</option>
+                <option value="mercedes">mercedes</option>
+                <option value="volvo">volvo</option>
+            </select>
+            <select id="model">
+                <option>Модель</option>
+            </select>
+            <select id="year">
+                <option value="">Год выпуска</option>
+                <option value="0.1">2000</option>
+                <option value="0.3">2010</option>
+                <option value="0.5">2020</option>
+            </select>
+            <select id="generation">
+                <option value="">Поколение</option>
+                <option value="100000">Новое</option>
+                <option value="25000">Старое</option>
+            </select>
+            <select id="modification">
+                <option value="">Модификация</option>
+                <option value="0">Базовая</option>
+                <option value="250000">Люксовая</option>
+            </select>
+            <select id="bodyType">
+                <option value="">Тип кузова</option>
+                <option value="0.5">Кабриолет</option>
+                <option value="0.7">Седан</option>
+                <option value="0.8">Купе</option>
+            </select>
+            <select id="level">
+                <option value="">Уровень оснащения</option>
+                <option value="0">Базовый</option>
+                <option value="100000">Средний</option>
+                <option value="250000">Максимальный</option>
+            </select>
+            <input id="mileage" type="number" placeholder="Пробег, км">
+            <div class="buttonSection">
+                <div class="button">
+                    <button onclick="calculate()" class="buttonText">Оценить</button>
+                </div> 
+                <p class="caution">Чтобы получить более точную оценку, заполните все поля</p>
+            </div>
+        </div>
+        <div class="total">
+            <h2 id="message"></h2>
+        </div>
+    </main>
+    <!-- JavaScript section -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
