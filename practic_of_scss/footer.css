@@ -1,0 +1,63 @@
+.footer {
+  padding: 207px 0px; }
+  .footer .contentBox {
+    display: flex;
+    justify-content: center; }
+    .footer .contentBox .contentBox__contentWrapper {
+      margin-right: 75px; }
+    .footer .contentBox .contentWrapper_margin {
+      margin-right: 199px; }
+    .footer .contentBox .contentWrapper .contentWrapper__wrapperTitle {
+      margin-bottom: 40px; }
+    .footer .contentBox .contentWrapper .wrapperTitle {
+      color: #FFF;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0.1px; }
+    .footer .contentBox .contentWrapper .contentListLinks .contentListLinks__link {
+      list-style-type: none;
+      margin-bottom: 19px; }
+    .footer .contentBox .contentWrapper .contentListLinks .contentListLinks__link a {
+      color: #FFF;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      text-decoration: none; }
+    .footer .contentBox .contentWrapper .contentListLinks .contentListLinks__link:last-child {
+      color: #FFF;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      text-decoration: none;
+      margin-bottom: 0px; }
+    .footer .contentBox .contentInfo .contentInfo__contentLocation {
+      margin-bottom: 10px; }
+    .footer .contentBox .contentInfo .contentLocation {
+      display: flex;
+      align-items: center; }
+      .footer .contentBox .contentInfo .contentLocation .contentPhone__adres {
+        margin-left: 8px; }
+      .footer .contentBox .contentInfo .contentLocation .adres {
+        color: #FFF;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.2px; }
+    .footer .contentBox .contentInfo .contentInfo__contentPhone {
+      margin-bottom: 30px; }
+    .footer .contentBox .contentInfo .contentPhone {
+      display: flex;
+      align-items: center; }
+      .footer .contentBox .contentInfo .contentPhone .contentPhone__phoneNumber {
+        margin-left: 10px; }
+      .footer .contentBox .contentInfo .contentPhone .phoneNumber {
+        color: #FFF;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.2px; }
+    .footer .contentBox .contentInfo .ContentSocial {
+      display: grid;
+      grid-template: 41px / 41px 41px 41px;
+      column-gap: 24px; }
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <main class="main">
+        <div class="parent">
+            <div class="leftSide">
+                <div class="leftSideTop">
+                    <img src="./img/logo.svg" alt="logo">
+                    <img src="./img/language.png" alt="language">
+                </div>
+                <div class="leftSideBottom">
+                    <div class="textLogo">
+                        <h1 class="title">Welcome Ruix</h1>
+                        <p class="subTitle">Welcome to Ruix. dashboard
+                            Community</p>
+                    </div>
+                    <div class="buttonDiv">
+                        <button class="button"><img src="./img/google.png" alt="google"></button>
+                        <p>Continue With Google</p>
+                    </div>
+                    <div class="imageBeatweenDiv">
+                        <img src="./img/Seperater.svg" alt="Seperater">
+                    </div>
+                    <div class="registration">
+                        <form class="registrationForm" action="">
+                            <input class="name" id="name" placeholder="Name" type="text">
+                            <input class="email" id="email" placeholder="Email" type="email">
+                            <input class="password" id="password" placeholder="Password" type="password">
+                            <p class="span" id="error"></p>
+                            <label for="remember">
+                                <input id="remember" type="checkbox">
+                                Remember Me
+                            </label>
+                                <button onclick="checkValid()" class="registrationButton">
+                                    Register
+                                </button>
+                            <p class="registrationFormText">Already have an account?<a class="registrationFormLink" href="#">Log in</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSide">
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+<!--Сделайте красивую форму регистрации из любого используемого вами сервиса (минимум 5 полей ввода), например, регистрация в Яндексе, Гугле или на любом другом сайте. Если какое-то из полей не заполнено или заполнено неверно, выводите сообщение об ошибке. А если все заполнено верно, то выведите "Добро пожаловать, имя пользователя!"-->

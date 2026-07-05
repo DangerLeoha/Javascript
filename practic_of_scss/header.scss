@@ -1,0 +1,124 @@
+@import "variables";
+
+.header {
+    padding: 20px 13px 152px 13px;
+
+    .headerTop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .headerTop__navigation {
+            margin: 0px 173px 0px 116px;
+
+            .navigation__link {
+                margin-right: 31px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                text-decoration: none;
+                color: white;
+            }
+
+            .navigation__link:last-child {
+                margin-right: 0px;
+            }
+        }
+
+        .button {
+            border: $button_border;
+            background-color: $body_color;
+            padding: 10px 36px;
+
+            .button__element {
+                border: none;
+                background-color: $body_color;
+                font-size: $text;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: 0.2px;
+                color: $text_white;
+            }
+        }
+    }
+
+    .heading {
+        font-size: $big_title;
+        font-weight: 500;
+        line-height: 88px;
+        letter-spacing: 0.2px;
+        color: $text_white;
+        text-align: center;
+    }
+
+    .header__heading {
+        max-width: 709px;
+        margin: 95px auto 0px auto;
+    }
+
+    .subheading {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: $text_white;
+        text-align: center;
+    }
+
+    .header__subheading {
+        max-width: 582px;
+        margin: 27px auto 0px auto;
+    }
+
+    .boxButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .button_2 {
+            background-color: $button_purple;
+            padding: 10px 30px 10px 30px;
+            margin-right: 35px;
+
+            .button2__element {
+                font-size: $text;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: 0.2px;
+                color: $text_white;
+                background-color: $button_purple;
+                border: none;
+            }
+        }
+
+        .header__button_2 {
+            max-width: 178px;
+        }
+
+        .button_3 {
+            border: $button_border;
+            display: flex;
+            padding: 10px 20px;
+
+            .button3__element {
+                border: none;
+                background-color: $body_color;
+                color: $text_white;
+                font-size: $text;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: 0.2px;
+            }
+        }
+    }
+
+    .header__boxButton {
+        margin-top: 85px;
+    }
+
+    .header__screensOfWork {
+        justify-content: center;
+        display: flex;
+        margin-top: 35px;
+    }
+
+}

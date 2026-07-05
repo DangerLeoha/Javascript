@@ -1,0 +1,42 @@
+.openType {
+  padding: 80px 0px; }
+  .openType .openType__boxContent {
+    max-width: 1219px;
+    margin: 0px auto; }
+  .openType .boxContent {
+    border-radius: 33px;
+    background-color: #343434;
+    display: flex; }
+    .openType .boxContent .boxContent__leftSide {
+      max-width: 483px;
+      margin-right: 86px; }
+    .openType .boxContent .leftSide {
+      padding: 61px 0px 61px 94px; }
+      .openType .boxContent .leftSide .leftSide__title {
+        margin-bottom: 37px; }
+      .openType .boxContent .leftSide .title {
+        color: #FFF;
+        font-size: 52px;
+        line-height: 62px;
+        letter-spacing: 0.2px; }
+      .openType .boxContent .leftSide .openTypeBox__buttonWrapper {
+        max-width: 232px; }
+      .openType .boxContent .leftSide .buttonWrapper {
+        background: #4452FE;
+        box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+        display: flex;
+        padding: 20px 36px;
+        align-items: center;
+        justify-content: center; }
+        .openType .boxContent .leftSide .buttonWrapper .buttonWrapperElement {
+          border: none;
+          color: #FFF;
+          font-size: 17px;
+          font-style: normal;
+          line-height: 25px;
+          letter-spacing: 0.2px;
+          background-color: #4452FE; }
+        .openType .boxContent .leftSide .buttonWrapper .buttonWrapper__buttonWrapperElemen {
+          max-width: 232px; }
+
+/*# sourceMappingURL=section_6.css.map */

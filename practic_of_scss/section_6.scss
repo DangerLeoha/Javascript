@@ -1,0 +1,63 @@
+@import "variables";
+
+.openType {
+    padding: 80px 0px;
+
+    .openType__boxContent {
+        max-width: 1219px;
+        margin: 0px auto;
+    }
+
+    .boxContent {
+        border-radius: 33px;
+        background-color: $box_background;
+        display: flex;
+
+        .boxContent__leftSide {
+            max-width: 483px;
+            margin-right: 86px;
+        }
+
+        .leftSide {
+            padding: 61px 0px 61px 94px;
+
+            .leftSide__title  {
+                margin-bottom: 37px;
+            }
+
+            .title {
+                color: $text_white;
+                font-size: $title;
+                line-height: 62px;
+                letter-spacing: 0.2px;
+            }
+
+            .openTypeBox__buttonWrapper {
+                max-width: 232px;
+            }
+
+            .buttonWrapper {
+                background: $button_purple;
+                box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+                display: flex;
+                padding: 20px 36px;
+                align-items: center;
+                justify-content: center;
+
+                .buttonWrapperElement {
+                    border: none;
+                    color: $text_white;
+                    font-size: $text;
+                    font-style: normal;
+                    line-height: 25px;
+                    letter-spacing: 0.2px;
+                    background-color: $button_purple;
+                }
+
+                .buttonWrapper__buttonWrapperElemen {
+                    max-width: 232px;
+                }
+            }
+        }
+    }
+}

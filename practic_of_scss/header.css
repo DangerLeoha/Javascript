@@ -1,0 +1,86 @@
+.header {
+  padding: 20px 13px 152px 13px; }
+  .header .headerTop {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .header .headerTop .headerTop__navigation {
+      margin: 0px 173px 0px 116px; }
+      .header .headerTop .headerTop__navigation .navigation__link {
+        margin-right: 31px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-decoration: none;
+        color: white; }
+      .header .headerTop .headerTop__navigation .navigation__link:last-child {
+        margin-right: 0px; }
+    .header .headerTop .button {
+      border: 1px solid #FFF;
+      background-color: #181818;
+      padding: 10px 36px; }
+      .header .headerTop .button .button__element {
+        border: none;
+        background-color: #181818;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0.2px;
+        color: #FFF; }
+  .header .heading {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 88px;
+    letter-spacing: 0.2px;
+    color: #FFF;
+    text-align: center; }
+  .header .header__heading {
+    max-width: 709px;
+    margin: 95px auto 0px auto; }
+  .header .subheading {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFF;
+    text-align: center; }
+  .header .header__subheading {
+    max-width: 582px;
+    margin: 27px auto 0px auto; }
+  .header .boxButton {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .header .boxButton .button_2 {
+      background-color: #4452FE;
+      padding: 10px 30px 10px 30px;
+      margin-right: 35px; }
+      .header .boxButton .button_2 .button2__element {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0.2px;
+        color: #FFF;
+        background-color: #4452FE;
+        border: none; }
+    .header .boxButton .header__button_2 {
+      max-width: 178px; }
+    .header .boxButton .button_3 {
+      border: 1px solid #FFF;
+      display: flex;
+      padding: 10px 20px; }
+      .header .boxButton .button_3 .button3__element {
+        border: none;
+        background-color: #181818;
+        color: #FFF;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0.2px; }
+  .header .header__boxButton {
+    margin-top: 85px; }
+  .header .header__screensOfWork {
+    justify-content: center;
+    display: flex;
+    margin-top: 35px; }
+
+/*# sourceMappingURL=header.css.map */

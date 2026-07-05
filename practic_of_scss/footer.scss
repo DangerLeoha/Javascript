@@ -1,0 +1,110 @@
+@import "variables";
+
+.footer {
+    padding: 207px 0px;
+
+    .contentBox {
+        display: flex;
+        justify-content: center;
+
+        .contentBox__contentWrapper {
+            margin-right: 75px;
+        }
+
+        .contentWrapper_margin {
+            margin-right: 199px;
+        }
+
+        .contentWrapper {
+
+
+            .contentWrapper__wrapperTitle {
+                margin-bottom: 40px;
+            }
+
+            .wrapperTitle {
+                color: $text_white;
+                font-size: $mini_title;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 0.1px;
+            }
+
+            .contentListLinks {
+
+
+                .contentListLinks__link {
+                    list-style-type: none;
+                    margin-bottom: 19px;
+                }
+
+                .contentListLinks__link a {
+                    color: $text_white;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                    text-decoration: none;
+                }
+
+                .contentListLinks__link:last-child {
+                    color: $text_white;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                    text-decoration: none;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+
+        .contentInfo {
+
+            .contentInfo__contentLocation {
+                margin-bottom: 10px;
+            }
+
+            .contentLocation {
+                display: flex;
+                align-items: center;
+
+                .contentPhone__adres {
+                    margin-left: 8px;
+                }
+
+                .adres {
+                    color: $text_white;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                }
+            }
+
+            .contentInfo__contentPhone {
+                margin-bottom: 30px;
+            }
+
+            .contentPhone {
+                display: flex;
+                align-items: center;
+
+                .contentPhone__phoneNumber {
+                    margin-left: 10px;
+                }
+
+                .phoneNumber {
+                    color: $text_white;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                }
+            }
+
+            .ContentSocial {
+                display: grid;
+                grid-template: 41px / 41px 41px 41px;
+                column-gap: 24px;
+
+            }
+        }
+    }
+}

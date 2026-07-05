@@ -1,0 +1,108 @@
+@import "variables";
+
+.contents {
+
+    padding: 50px 0px 50px 0px;
+
+    .title {
+        text-transform: uppercase;
+        text-align: center;
+        color: $text_white;
+        font-size: $title;
+        line-height: 62px;
+        letter-spacing: 0.2px;
+    }
+
+    .subheading {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: $text_white;
+        text-align: center;
+    }
+
+    .contents__wrapper {
+        margin-top: 44px;
+    }
+
+    .wrapper {
+
+        display: flex;
+        justify-content: center;
+
+        .wrapper__wrapperBox {
+            max-width: 476px;
+            margin-right: 33px;
+        }
+
+        .wrapper__wrapperBox:last-child {
+            margin-right: 0px;
+        }
+
+        .wrapperBox {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            padding: 40px 35px;
+            border-radius: 10px;
+            border: $coment_box;
+            background: $text_white;
+            box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+
+            .wrapperTitle {
+                color: $text_black;
+                text-align: center;
+                font-size: $mini_title;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 0.1px;
+            }
+
+            .miniSubtitle {
+                color: $text_gray;
+                text-align: center;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+            }
+
+            .wrapperBox__button {
+                box-sizing: border-box;
+                width: 157px;
+                margin: 57px 0px;
+            }
+
+            .wrapperBox__button_2 {
+                box-sizing: border-box;
+                width: 190px;
+                margin: 30px 0px;
+            }
+
+            .button {
+                display: flex;
+                justify-content: center;
+                padding: 20px 36px;
+                border: none;
+                background: $button_purple;
+                box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+
+                .button2__element {
+                    background-color: $button_purple;
+                    border: none;
+                    color: $text_white;
+                    font-size: $text;
+                    font-weight: 500;
+                    line-height: 25px;
+                    letter-spacing: 0.2px;
+                }
+            }
+
+        }
+
+        .wrapper_pading {
+            padding: 40px 48px;
+        }
+
+    }
+
+}

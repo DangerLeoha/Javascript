@@ -1,0 +1,50 @@
+.fuatures {
+  padding: 162px 13px; }
+  .fuatures .title {
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.2px; }
+  .fuatures .subheading {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFF;
+    text-align: center; }
+  .fuatures .fuatures__subheading {
+    margin: 27px auto 0px auto;
+    max-width: 582px; }
+  .fuatures .fuatures__workingPreview {
+    margin-top: 80px; }
+  .fuatures .workingPreview {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .fuatures .workingPreview .workingPreview__column {
+      max-width: 269px;
+      margin-left: 27px; }
+    .fuatures .workingPreview .column {
+      padding: 20px; }
+      .fuatures .workingPreview .column .column__subcolumn {
+        margin-bottom: 25px; }
+      .fuatures .workingPreview .column .column__subcolumn:last-child {
+        margin-bottom: 0px; }
+      .fuatures .workingPreview .column .subcolumn .descriptionOfWork {
+        display: flex;
+        align-items: start; }
+        .fuatures .workingPreview .column .subcolumn .descriptionOfWork .miniTitle {
+          color: #FFF;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 30px;
+          letter-spacing: 0.1px; }
+        .fuatures .workingPreview .column .subcolumn .descriptionOfWork .descriptionOfWork__miniTitle {
+          margin: 0px 0px 20px 13px; }
+      .fuatures .workingPreview .column .miniSubtitle {
+        color: #FFF;
+        line-height: 24px;
+        letter-spacing: 0.2px; }
+
+/*# sourceMappingURL=section_1.css.map */

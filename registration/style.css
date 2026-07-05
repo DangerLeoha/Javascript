@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: solid black 1px;
+    border-radius: 60px;
+}
+
+.leftSide {
+    padding: 45px 54px 0px 54px;
+}
+
+.leftSideTop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 121px;
+}
+
+.textLogo {
+    text-align: center;
+    font-size: 24px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.buttonDiv {
+    display: flex;
+    border: solid gray 1px;
+    border-radius: 5px;
+    max-width: 418px;
+    margin: 77px 0px 33px 0px;
+    padding: 17px 11px;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 300;
+    justify-content: center;
+}
+
+
+.button {
+    background-color: white;
+    border: none;
+    margin-right: 4px;
+}
+
+.imageBeatweenDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+} 
+
+.registration {
+    min-width: 420px;
+    display: block;
+}
+
+.name {
+    display: block;
+    border: 1px gray solid;
+    width: 420px;
+    padding: 21px 0px 20px 19px;
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.email {
+    display: block;
+    border: 1px gray solid;
+    width: 420px;
+    padding: 21px 0px 20px 19px;
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.password {
+    display: block;
+    border: 1px gray solid;
+    width: 420px;
+    padding: 21px 0px 20px 19px;
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.span {
+    color: red;
+    padding: 5px 0px;
+}
+
+#remember {
+    border: black 1px solid;
+    margin-right: 2px;
+}
+
+.registrationButton {
+    display: block;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px 0px;
+    min-width: 420px;
+    margin-top: 24px;
+    border: 1px black solid;
+    border-radius: 30px;
+}
+
+.registrationFormText {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.registrationFormLink {
+    color: rgb(218, 218, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.rightSide {
+    background-image: url(./img/image.png);
+}

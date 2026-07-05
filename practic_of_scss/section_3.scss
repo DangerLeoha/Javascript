@@ -1,0 +1,73 @@
+@import "variables";
+
+.gallery {
+    padding: 150px 0px 50px 0px;
+
+    .title {
+        text-align: center;
+        color: $text_white;
+        font-size: $title;
+        line-height: 62px;
+        letter-spacing: 0.2px;
+    }
+
+    .subheading {
+        text-align: center;
+        color: $text_white;
+        text-align: $mini_title;
+        font-size: 20px;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+    }
+
+    .gallery__galleryImage {
+        margin-top: 54px;
+    }
+
+    .galleryImage {
+
+        .galleryImages_1 {
+            display: grid;
+            grid-template: 1fr / 225px 225px 225px 225px;
+            justify-content: center;
+            column-gap: 33px;
+        }
+
+        .galleryImages_2 {
+            display: grid;
+            grid-template: 1fr / 395px 225px 401px;
+            justify-content: center;
+            column-gap: 33px;
+        }
+
+        .galleryImage__galleryImages_2 {
+            margin-top: 44px;
+        }
+
+    }
+
+    .galleryButtonDiv {
+        border: $button_border;
+        box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+
+        .button2__element {
+            color: $text_white;
+            font-size: $text;
+            font-weight: 500;
+            line-height: 25px;
+            letter-spacing: 0.2px;
+            background-color: $body_color;
+            border: none;
+        }  
+    }
+
+    .gallery__galleryButtonDiv {
+        max-width: 159px;
+        margin: 44px auto 0px auto;
+    }
+
+}

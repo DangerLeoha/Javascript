@@ -1,0 +1,61 @@
+@import "variables";
+
+.partners {
+
+    .title {
+        color: $text_white;
+        font-size: $title;
+        line-height: 62px;
+        letter-spacing: 0.2px;
+        text-align: center;
+    }
+
+    .subheading {
+        color: $text_white;
+        text-align: center;
+        font-size: $mini_title;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+    }
+
+    .partners__partners_images {
+        margin: 50px 0px;
+    }
+
+    .partners__partners_images img {
+        margin-right: 74px;
+    }
+
+    .partners__partners_images img:last-child {
+        margin-right: 0px;
+    }
+
+    .partners_images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .partners__partners_button {
+        max-width: 176px;
+        margin: 0px auto;
+    }
+
+    .partners_button {
+        padding: 10px 0px;
+        border: $button_border;
+        box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+        display: flex;
+        justify-content: center;
+
+        .button2__element {
+            color: $text_white;
+            font-size: $text;
+            font-weight: 500;
+            line-height: 25px;
+            letter-spacing: 0.2px;
+            background-color: $body_color;
+            border: none;
+        }
+    }
+}
